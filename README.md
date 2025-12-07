@@ -9,7 +9,9 @@ In this bot you can send any repetitive message through command
 2. paste your bot token in `BOT_TOKEN`
 
 3. paste your id into `whitelist`
+   or if you would like to share access to bot to everyone, just delete `if user_id not in whitelist:
+        return`
 
-4. run this bot
+5. run this bot
 
-5. enjoy!
+6. enjoy!
