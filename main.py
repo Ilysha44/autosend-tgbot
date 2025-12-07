@@ -37,7 +37,7 @@ def send_message_n_times(message):
             time.sleep(0.1)
 
     except Exception as e:
-        print(f"Ошибка: {e}")
+        print(f"exception: {e}")
         bot.reply_to(message, f"There is an error: {e}")
 
 if __name__ == '__main__':
